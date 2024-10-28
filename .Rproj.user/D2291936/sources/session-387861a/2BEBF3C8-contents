@@ -1,0 +1,109 @@
+---
+title: "Investigating the Determinants of Active Tuberculosis (TB) Epidemic in Eastern African Countries"
+author: "Researcher"
+date: "2024"
+format: pdf
+editor: visual
+output: pdf_document
+---
+
+# Abstract
+
+**Background**: Tuberculosis (TB) is a chronic infectious disease primarily affecting the lungs but can also spread to the kidneys, spine, brain, and intestines. Despite efforts to control it, TB continues to threaten human lives, particularly in developing countries, for over four millennia. It spreads through airborne transmission from person to person.
+
+**Objective**: This study aimed to examine the determinants of active TB, exploring the variations in incidence by gender, age group, and country within the Eastern Africa region.
+
+**Methods**: A descriptive correlational research design was employed under the positivist paradigm. Aggregated secondary TB data from the World Health Organization (WHO) database was used, with a sample size of 656 cases across Eastern Africa. Data analysis included both descriptive and inferential statistical techniques to investigate the relationships between TB incidences and risk factors.
+
+**Results**: Results showed that individuals aged 65 and older are most vulnerable to TB infection. Patients with HIV were found to be particularly at risk due to weakened immune systems, with diabetic patients also more likely to develop TB than smokers. Smokers were twice as likely to develop TB as undernourished individuals, while alcohol consumption was found to have a lesser impact on TB susceptibility than undernourishment. Mozambique, Ethiopia, Kenya, Tanzania, and Uganda were identified as the countries with the highest TB burden in 2018.
+
+**Conclusions**: The findings provide insights into the TB epidemic in East Africa and offer data for governments to enhance control, prevention, diagnosis, and treatment strategies.
+
+**Keywords**: Tuberculosis, incidence, prevalence, Eastern Africa
+
+# Introduction
+
+Tuberculosis (TB) is a severe infectious disease primarily affecting the lungs, though it can also spread to the kidneys, spine, brain, and intestines (Zaman, 2010). For over 4,000 years, TB has posed a significant health challenge globally, and recent reports indicate that it remains the leading cause of death from infectious diseases, surpassing HIV/AIDS (WHO, 2019). In 2018, more than 10 million people were diagnosed with active TB worldwide, with 1.5 million deaths attributed to the disease.
+
+In Eastern Africa, TB remains prevalent, particularly among men (57% of cases), followed by women (32%) and children (1.1%) (WHO, 2019). Poverty, malnutrition, and limited access to healthcare exacerbate TB in this region, leading to high incidence rates (Kenya Ministry of Health, 2016). Understanding the social, demographic, and biological factors influencing TB transmission is crucial for developing effective prevention and treatment strategies.
+
+This study investigates the determinants of TB incidence across Eastern Africa, focusing on variations by gender, age group, and country.
+
+# Methods
+
+## Study Design and Data Source
+
+This descriptive correlational study used secondary data from the WHO TB database. The data consisted of 656 aggregated TB cases reported across 19 Eastern African countries in 2018. A positivist approach was employed, and the study focused on identifying relationships between TB incidences and potential risk factors.
+
+## Sampling Procedure
+
+The study employed purposive sampling to select the Eastern African countries and variables most relevant to the research questions. Excluded from the analysis were countries outside the Eastern African region and variables not contributing to the research objectives.
+
+## Data Analysis
+
+Descriptive statistics were used to summarize the data. Inferential analysis, including two-sample t-tests, one-way ANOVA, and negative binomial regression, was performed using R software to test the study?s hypotheses and examine the relationship between TB and various risk factors such as HIV, diabetes, alcohol, smoking, and malnutrition.
+
+## Hypotheses
+
+1.  **H1**: Males have significantly higher TB incidence than females in Eastern Africa.
+2.  **H2**: The elderly (65 years and older) experience higher TB incidence across Eastern Africa.
+3.  **H3**: There is a significant association between TB risk factors (HIV, diabetes, smoking, alcohol, malnutrition) and estimated TB cases in Eastern Africa.
+
+# Results
+
+## Demographic Information
+
+**Table 1**\
+*Descriptive Statistics by Gender*
+
+| Gender | Mean     | SD       | Median | Min | Max    |
+|--------|----------|----------|--------|-----|--------|
+| Female | 6412.93  | 13950.22 | 1500   | 0   | 99000  |
+| Male   | 10781.98 | 24689.67 | 1900   | 0   | 165000 |
+
+Males were more susceptible to TB, with a higher mean incidence (M=10781.98, SD=24689.67) than females (M=6412.93, SD=13950.22).
+
+## Age Groups and Risk Factors
+
+**Table 2**\
+*Descriptive Statistics by Age Group*
+
+| Age Group | Mean     | SD       | Median | Min | Max    |
+|-----------|----------|----------|--------|-----|--------|
+| 65-74     | 19249.09 | 32252.61 | 3400   | 0   | 165000 |
+| 15-24     | 8120.57  | 20197.04 | 1000   | 0   | 146000 |
+
+Individuals aged 65-74 were the most affected, with a mean of 19249.09 cases (SD=32252.61), while young adults (15-24) were the second-highest risk group.
+
+## Inferential Analysis
+
+**H1**: A two-sample t-test revealed that males had significantly higher TB incidence than females (t = -2.89, p = 0.002).
+
+**H2**: One-way ANOVA showed a significant difference in TB incidence across age groups (F(6, 649) = 11.19, p \< 0.001), with the elderly experiencing the highest burden.
+
+**H3**: Negative binomial regression indicated that individuals with HIV (RR=2.43, p=0.002), smoking (RR=2.38, p=0.003), and diabetes (RR=1.92, p=0.029) were at significantly higher risk of developing TB.
+
+# Discussion
+
+This study confirms that males and the elderly are more susceptible to TB infection in Eastern Africa. It also highlights the importance of addressing HIV, diabetes, and smoking as critical risk factors. Similar to previous research (Ravikumar & Varadaraja, 2017; Berkowitz, 2017), HIV patients were identified as the most vulnerable group, with their weakened immune systems exacerbating TB risk.
+
+Findings from the study reinforce the need for targeted TB interventions in high-risk groups, particularly older adults and individuals with co-occurring conditions like HIV and diabetes. Governments and healthcare organizations must enhance diagnostic, preventive, and treatment strategies in these populations. Health promotion programs that address smoking cessation and better management of diabetes may help to reduce TB incidences. Additionally, strengthening health systems to manage the complex healthcare needs of TB patients, especially those with comorbid conditions, is crucial.
+
+Mozambique, Ethiopia, Kenya, Tanzania, and Uganda, being the countries with the highest TB burden, need to scale up their efforts in TB control. Collaboration with international health bodies and local healthcare providers could ensure the proper distribution of resources, improvement of healthcare infrastructure, and the implementation of effective public health campaigns.
+
+### Limitations
+
+The reliance on secondary data limits the scope of the analysis to the available dataset. In addition, correlational studies do not infer causality, which means that while associations were observed between TB and risk factors, direct causality cannot be established. Future studies may need to consider longitudinal designs and explore more nuanced interventions specific to the region.
+
+# Conclusion
+
+The study provides essential insights into the TB epidemic in Eastern Africa, revealing key demographics and risk factors contributing to TB incidences. Policymakers should leverage these findings to develop targeted prevention and treatment programs aimed at reducing TB burden in the region, particularly among vulnerable groups such as the elderly, men, and people living with HIV or diabetes.
+
+# References
+
+-   Berkowitz, N. (2017). Effect of diabetes and HIV on radiographic manifestations of pulmonary tuberculosis. *University of Cape Town Faculty of Health Sciences Centre for Infectious Disease Epidemiology and Research (CIDER)*.
+-   Caminero, J. A., Sotgiu, G., Zumla, A., & Migliori, G. B. (2010). Best drug treatment for multidrug-resistant and extensively drug-resistant tuberculosis. *The Lancet Infectious Diseases, 10*(9), 621?629.
+-   Dye, C., Harries, A. D., Maher, D., Hosseini, S. M., Nkhoma, W., & Salaniponi, F. M. (2006). Tuberculosis. In *Disease and Mortality in Sub-Saharan Africa* (2nd ed.). World Bank.
+-   Floyd, K., Glaziou, P., Zumla, A., & Raviglione, M. (2018). The global tuberculosis epidemic and progress in care, prevention, and research. *The Lancet Respiratory Medicine, 6*(4), 299?314.
+-   Kenya Ministry of Health. (2014). *Kenya Health Sector Strategic and Investment Plan (Khsspi)*.
+-   WHO. (2019). *Global tuberculosis report 2019*. World Health Organization.

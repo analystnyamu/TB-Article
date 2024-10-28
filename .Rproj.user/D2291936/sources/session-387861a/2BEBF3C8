@@ -1,14 +1,14 @@
 {
-    "id": "AC126182",
-    "path": "C:/Users/DELL/Downloads/Investigating_Determinants_of_TB_in_East_Africa.qmd",
-    "project_path": null,
+    "id": "2BEBF3C8",
+    "path": "D:/Martin Doc/PYTHON WORK/CHOLERA-ANALYSIS/TB Project/TB Article/TB_Epidemic_Study.qmd",
+    "project_path": "TB_Epidemic_Study.qmd",
     "type": "quarto_markdown",
     "hash": "0",
     "contents": "",
-    "dirty": false,
-    "created": 1729760316226.0,
+    "dirty": true,
+    "created": 1730104621595.0,
     "source_on_save": false,
-    "relative_order": 3,
+    "relative_order": 11,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -18,14 +18,14 @@
         "rmdVisualCollapsedChunks": "",
         "cursorPosition": "0,0",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "182:0"
+        "rmdVisualModeLocation": "2:2151"
     },
     "folds": "",
-    "lastKnownWriteTime": 1729778756,
+    "lastKnownWriteTime": 1729764008,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1729778756538,
+    "last_content_update": 1730104624455,
     "read_only": false,
     "read_only_alternatives": []
 }

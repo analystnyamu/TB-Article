@@ -70,3 +70,9 @@ east_africa_tb_data["case_range"] = pd.cut(east_africa_tb_data["best"], bins=bin
 
 # Plot data
 # ...
+
+## Available Formats
+
+- [View HTML Version](TB-Article.html)
+- [Download PDF Version](TB-Article.pdf)
+
