@@ -51,6 +51,11 @@ This project is implemented in Python using the following key libraries:
 - **Matplotlib**: For creating the choropleth map.
 - **Pandas**: For data manipulation and range categorization of TB cases.
 
+## Available Formats
+
+- [View HTML Version](TB-Article.html)
+- [Download PDF Version](TB-Article.pdf)
+
 ### Key Code Snippets
 
 The following snippet categorizes TB cases into defined ranges and visualizes the map with color-coded ranges:
@@ -71,8 +76,5 @@ east_africa_tb_data["case_range"] = pd.cut(east_africa_tb_data["best"], bins=bin
 # Plot data
 # ...
 
-## Available Formats
 
-- [View HTML Version](TB-Article.html)
-- [Download PDF Version](TB-Article.pdf)
 
