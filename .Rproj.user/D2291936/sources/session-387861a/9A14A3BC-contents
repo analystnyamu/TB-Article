@@ -1,0 +1,27 @@
+---
+title: "Investigating the Determinants of Active Tuberculosis (TB) Epidemic in Eastern African Countries"
+author: "Researcher Name"
+date: "2024-10-24"
+format: pdf
+editor: visual
+---
+
+# Introduction
+
+Tuberculosis (TB) is a highly infectious, life-threatening disease that primarily targets the lungs but can also affect the kidneys, spine, brain, and intestines. Over the last 4,000 years, TB has persisted as a major health challenge, spreading through airborne transmission (Zaman, 2010). Despite modern interventions, TB remains a leading cause of morbidity and mortality in many developing countries (Floyd et al., 2018; Lytras & Kalkouni, 2018; Zaman, 2010).
+
+In 2019, the World Health Organization (WHO) reported that TB claimed the lives of approximately 1.5 million people, with 16.7% of these deaths occurring among individuals who were HIV-positive. The report further indicated that TB was among the top ten leading causes of death globally, surpassing HIV/AIDS in terms of fatalities from a single infectious agent (WHO, 2019). In 2018, more than 10 million people were diagnosed with active TB worldwide, with the majority of cases occurring in men (57%), followed by women (32%), and children (1.1%). Approximately 10% of latent TB cases can become active if left untreated, resulting in nearly half of those infected facing severe health complications or death (WHO, 2013). While individuals with active TB can transmit the disease through coughing, speaking, or sneezing, those with latent TB do not pose such a risk.
+
+Among the eight countries most burdened by TB, India ranks first in terms of new cases, followed by China, Indonesia, and South Africa (WHO, 2019). Since 1997, WHO has released annual reports on the global TB epidemic, offering critical insights for diagnosis, prevention, and treatment strategies at the global and regional levels. Adults in their productive years are particularly susceptible to TB, though individuals of all ages in developing countries are at risk (WHO, 2013).
+
+In countries like Kenya, the TB burden is exacerbated by socioeconomic factors, disproportionately affecting poor and vulnerable populations and further widening inequality. Weak surveillance systems mean that TB cases often go undiagnosed, with more than 40% remaining untreated (Ministry of Health, 2016). Kenya is classified as one of the world's high TB burden countries, with cases increasing from 233 per 100,000 in 2015 to 558 per 100,000 in 2016 (Kenya Ministry of Health, 2014). Studies show that young adults between the ages of 15-34 are most affected, and approximately 83% of TB patients in this group were not HIV-positive (Philippe et al., 2016).
+
+In 2018, TB claimed the lives of over 205,000 children, including those co-infected with HIV. WHO estimates that 5,000 people die from active TB every day (WHO, 2019). There are significant gaps in TB diagnosis, proper notification, treatment, and financial support for TB prevention and patient care in low- and middle-income countries (Caminero et al., 2010; Turner et al., 2017; Yuko & Abdisalam, 2015). As drug-resistant strains of TB continue to pose a threat, addressing these gaps is crucial for reducing TB incidence. Innovative treatments and new diagnostic tools are needed to prevent latent TB from progressing to active infection (Lytras & Kalkouni, 2018).
+
+The current study aims to examine the determinants of active TB and analyze the variation in TB incidence by gender, age group, and country across the Eastern Africa region. This study explores the following hypotheses:
+
+**H1**: Males have a significantly higher incidence of TB compared to females in Eastern Africa.
+
+**H2**: Elderly individuals (65 years and older) bear a significantly higher TB burden in the region.
+
+**H3**: There is a significant association between TB risk factors (HIV, diabetes, alcohol, smoking, and malnutrition) and estimated TB cases across Eastern Africa.

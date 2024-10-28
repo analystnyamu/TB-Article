@@ -1,0 +1,364 @@
+---
+header-includes:
+  - \usepackage{amsmath}  # Example package
+  - \usepackage{cancel}
+  - \usepackage{graphicx}  # Example package for graphics
+---
+
+# Chapter 8: Algebraic Expressions {.unnumbered}
+
+## Algebraic Expressions {.unnumbered}
+
+**Algebraic expression**, is an expression built up from integer constants, variables, and algebraic operations (Addition, subtraction, division and multiplication).
+
+## Solved problems
+
+::: {.callout-note collapse="false"}
+## Example 1
+
+Simplify the following:
+:::
+
+::: {.callout-note collapse="false"}
+## Example 1 (a)
+
+a\) $$\frac{2m-am-2y+ay}{2m+2y-am-ay}  (3 mks)$$
+:::
+
+::: {.callout-caution collapse="true"}
+## Solution
+
+Factorizing the **Numerator:**
+
+```{=latex}
+\begin{equation}
+\begin{split}
+2m - am - 2y + ay & = m(2-a) - y(2-a) \\
+& = (m-y)(2-a) \\
+\end{split}
+\end{equation}
+```
+Factorizing the **Denominator:**
+
+```{=latex}
+\begin{equation}
+\begin{split}
+2m + 2y - am - ay &= 2(m+y) - a(m+y) \\
+&= (2-a)(m+y) \\
+\Rightarrow \, \frac{(m-y)\cancel{(2-a)}}{\cancel{(2-a)}(m+y)} &= \frac{(m-y)}{(m+y)}
+\end{split}
+\end{equation}
+```
+:::
+
+::: {.callout-note collapse="false"}
+## Example 1 (b)
+
+b\) $$\frac{x^2-4ax-4a+x}{(x+1)(4a^2-ax)}  (3 mks)$$
+:::
+
+::: {.callout-caution collapse="true"}
+## Solution
+
+Factorizing the **Numerator:**
+
+```{=latex}
+\begin{equation}
+\begin{split}
+x^2 - 4ax - 4a + x & = x(x - 4a) + 1(x - 4a) \\ 
+& = (x + 1)(x - 4a) \\ 
+\end{split}
+\end{equation}
+```
+**Denominator:**
+
+```{=latex}
+\begin{equation}
+\begin{split}
+(x+1)(4a^2 - ax) \\ 
+\Rightarrow \frac{\cancel{(x+1)}(x - 4a)}{\cancel{(x+1)}(4a^2 - ax)} &= \frac{x - 4a}{a(4a - x)} \\ 
+&= \frac{\cancel{x - 4a}}{-a(\cancel{x - 4a})} \\ 
+&= \frac{-1}{a} 
+\end{split}
+\end{equation}
+```
+:::
+
+::: {.callout-note collapse="false"}
+## Example 1 (c)
+
+c\) $$\frac{x-2y}{12p}-\frac{x+3y}{60p}   (3 mks)$$
+:::
+
+::: {.callout-caution collapse="true"}
+## Solution
+
+```{=latex}
+\begin{equation}
+\begin{split}
+\text{L.C.M} & = 60p \\ 
+\frac{x - 2y}{12p} - \frac{x + 3y}{60p} & = \frac{5(x - 2y) - (x + 3y)}{60p} \\ 
+& = \frac{5x - 10y - x - 3y}{60p} \\ 
+& = \frac{4x - 13y}{60p} 
+\end{split}
+\end{equation}
+```
+:::
+
+::: {.callout-note collapse="false"}
+## Example 2
+
+Given that p=4, q=-3, and r=-1 find the value of: $$\frac{2pqr^4+pqr-pr}{4pr-2qr+2pqr}  (3mks) $$
+:::
+
+::: {.callout-caution collapse="true"}
+## Solution
+
+**Numerator:**
+
+```{=latex}
+\begin{equation}
+\begin{split}
+2pqr^4 + pqr - pr & = 2(4)(-3)(-1)^4 + (4)(-3)(-1) - (4)(-1) \\ 
+& = 2(4)(-3)(1) + (4)(-3)(-1) - (4)(-1) \\ 
+& = -24 + 12 + 4 \\ 
+& = -8 \\ 
+\end{split}
+\end{equation}
+```
+
+**Denominator:**
+
+```{=latex}
+\begin{equation}
+\begin{split}
+4pr - 2qr + 2pqr & = 4(4)(-1) - 2(-3)(-1) + 2(4)(-3)(-1) \\ 
+& = -16 - 6 + 24 \\ 
+& = 2 \\ 
+\therefore \frac{\cancelto{-4}{-8}}{\cancel{2}} & = -4 
+\end{split}
+\end{equation}
+```
+:::
+
+::: {.callout-note collapse="false"}
+## Example 3
+
+Simplify
+
+$$\frac{(4a+b)^2-(b-4a)^2}{(a+b)^2-(b-a)^2}   (4mks) $$
+:::
+
+::: {.callout-caution collapse="true"}
+## Solution
+
+**Numerator**:
+
+```{=latex}
+\begin{equation}
+\begin{split}
+(4a + b)^2 & = (4a + b)(4a + b) \\ 
+& = 4a(4a + b) + b(4a + b) \\ 
+& = 16a^2 + 4ab + 4ab + b^2 \\ 
+& = 16a^2 + 8ab + b^2 \\ 
+(b - 4a)^2 & = (b - 4a)(b - 4a) \\ 
+& = b(b - 4a) - 4a(b - 4a) \\ 
+& = b^2 - 4ab - 4ab + 16a^2 \\ 
+& = b^2 - 8ab + 16a^2 \\ 
+(4a + b)^2 - (b - 4a)^2 & = 16a^2 + 8ab + b^2 - (b^2 - 8ab + 16a^2) \\ 
+& = 16a^2 + 8ab + b^2 - b^2 + 8ab - 16a^2 \\ 
+& = 8ab + 8ab \\ 
+& = 16ab \\ 
+\end{split}
+\end{equation}
+```
+
+**Denominator:**
+
+```{=latex}
+\begin{equation}
+\begin{split}
+(a + b)^2 & = (a + b)(a + b) \\ 
+& = a(a + b) + b(a + b) \\ 
+& = a^2 + ab + ab + b^2 \\ 
+& = a^2 + 2ab + b^2 \\ 
+\\
+(b - a)^2 & = (b - a)(b - a) \\ 
+& = b(b - a) - a(b - a) \\ 
+& = b^2 - ab - ab + a^2 \\ 
+& = b^2 - 2ab + a^2 \\ 
+\\
+(a + b)^2 - (b - a)^2 & = a^2 + 2ab + b^2 - (b^2 - 2ab + a^2) \\ 
+& = a^2 + 2ab + b^2 - b^2 + 2ab - a^2 \\ 
+& = 2ab + 2ab \\ 
+& = 4ab \\ 
+\\
+\therefore \frac{\cancelto{4}{16ab}}{\cancel{4ab}} & = 4 \\ 
+\end{split}
+\end{equation}
+```
+:::
+
+::: {.callout-note collapse="false"}
+## Example 4
+
+Solve the equation\
+$$\frac{3}{2r}=\frac{5}{5r-1}         (2mks)$$
+:::
+
+::: {.callout-caution collapse="true"}
+## Solution
+
+Multiply both sides by the L.C.M of the **denominator**
+
+```{=latex}
+\begin{equation}
+\begin{split}
+L.C.M &=2r(5r-1)\\
+\frac{3(\cancel{2r}(5r-1))}{\cancel{2r}}&=\frac{5(2r(\cancel{5r-1}))}{\cancel{5r-1}}\\
+3(5r-1)&=5(2r)\\ 
+15r-3&=10r\\
+15r-10r&=3\\
+\frac{\cancel5r}{\cancel5}&=\frac{3}{5}\\ \therefore r&=\frac{3}{5}\\
+\end{split}
+\end{equation}
+```
+:::
+
+::: {.callout-note collapse="false"}
+## Example 5
+
+In fourteen years' time, a mother will be twice as old as her son. Four years ago, the sum of their ages was 30 years. Find how old the mother was when the son was born.$(4 mks)$
+:::
+
+::: columns
+::: {.callout-caution collapse="true"}
+## Solution
+
+::: {.column width="45%"}
+```{=latex}
+\begin{equation}
+\begin{split}
+\underline{14 \,yrs \,time:} \\
+Mother&=2x\\ son&=x\\
+\underline{ Present\, age:}\\
+Mother&=2x-14\\ Son&=x-14\\
+\underline{4 \, yrs\, ago:}\\ 
+Mother&=2x-14-4\\Son&=x-14-4\\ 
+\end{split}
+\end{equation}
+```
+:::
+
+::: {.column width="50%"}
+```{=latex}
+\begin{equation}
+\begin{split}
+\underline{Sum \,of\, their\, age:}\\
+(2x-18)+(x-18)&=30\\3x-36&=30\\
+\frac{\cancel{3}x}{\cancel{3}}&=\cancelto{\frac{22}{1}}{\frac{66}{3}}\\&=22, years\\ 
+Mother \Rightarrow (44-14)&= 30 \,years\, now\\
+Son \Rightarrow (22-14)&= 8 \,years\, now\\ Mother's\, age\, when\, giving \,birth&=30-8\\&=22\,years
+\end{split}
+\end{equation}
+```
+:::
+
+$\therefore$ The mother was 22 years old when the son was born.
+:::
+:::
+
+::: {.callout-note collapse="false"}
+## Problems to Solve
+
+1.  Esther has $26$ coins whose total value is $Ksh.\,205$. There are thrice as many $Ksh.\,10$ coins as there are $Ksh.\,20$ coins. The rest are 50cts coins. Find the number of $Ksh.\,20$ coins that Esther has. $(3mks)$
+
+2.  Joyce has 21 coins whose total value is $Ksh. \,72$. There are twice as many five shillings coins as there are ten shillings coins. The rest are one shilling coin. Find the number of ten shillings coins that Joyce has. $(3 mks)$
+
+3.  A rectangular plot is $0.4 m$ longer than it is wide. If its length is $6m$ find its perimeter. When the breadth of the rectangle is reduced by $0.5m$, the length is increased such that the perimeter is increased by $\frac{1}{4}$ of its original. What is the change in the length of the rectangle? $(3 mks)$
+
+4.  Three fruit vendors Musa, Florence, and Josephine agreed to share $Ksh.\,1800$ gained after a sale of the property. For every $Ksh.\, 1$ that Musa gets, Florence gets 50cts and for every $Ksh.\,2$ that Florence gets Josephine gets $Ksh.\,3$. Find Florence's share. $(3mks)$
+
+5.  Three-fifths of the work is done on the first day. On the second day, $\frac{3}{4} \,$of the remainder is completed. If on the third day $\frac{7}{8} \,$of what remained is done, what fraction of the work still remains to be done? $(3mks)$
+
+6.  Three years ago, Albina was three times as old as her son. In five years' time, the sum of their ages will be 76. Determine their present ages. $(3mks)$
+
+7.  Simplify $(3mks)$
+
+$$\frac{(4p+2q)^2-(2q-4p)^2}{(2p+q)^2-(q-2p)^2} $$
+
+8.  In a poultry farm, there are eight more hens than ducks, three times as many turkeys as hens, and three-quarters as many quails as turkeys.
+
+    a\) If there are x ducks, write down a simplified expression in x for the total number of birds on the farm. $(1mk)$
+
+    b\) Find the total number of birds given that there are 162 quails. $(2mks)$
+
+9.  Jane's mother is now four times as older than her. In eight years' time, she will be three times as old as her daughter. Find their present ages. $(3mks)$
+
+10. Factorize completely $3mks)$
+
+$$
+(p-2q)(3p+2q)-(p-2q)^2
+$$ 
+11. Simplify the following expression by reducing it to a single fraction $(3 mks)$
+
+$$
+\frac{4p-3}{3}-\frac{3p-4}{4}=\frac{3-p}{6}
+$$
+
+12. After work a hawker had four times as many ten-shilling coins as twenty-shilling coins, eight times as many five-shilling coins as twenty-shilling coins and thrice as many one-shilling coins as ten-shilling coins. After counting his money he found that he had a total of $Ksh.\, 560$. Calculate the number of coins he had. $(3mks)$
+
+13. Osinya is now two times as old as his younger brother and three times as old as his son. Four years from now Osinya's age will be twelve years more than the sum of the ages of his son and younger brother. Find Osinya and his son present age.$(4mks)$
+
+14. Wathitha is now three times as old as Fatuma. Seven years ago Wathitha was exactly two-third times as old as Fatuma will be 14 years from now. Find Wathitha's present age. $3mks)$
+
+15. Fadhili is now two and a half times as old as his son. Sixteen years ago his age was 7 years more than his son will be 7 years from now. Calculate Fadhili's present age. $3mks)$
+
+16. In a church harambee meeting, there were 300 people present. Each man contributed $Ksh. \,500$ and each woman $Ksh.\, 300$. The meeting raised a total of $Ksh.\, 100,200$. Calculate the number of men present in the meeting. $3mks)$
+
+17. A group of 144 women and young girls in a certain church organized a trip to Kisumu. Each woman paid $Ksh. \,900$ while each girl paid half as much. In this way the group raised a total of $Ksh.\, 81,000$ for the trip. Calculate the number of women in the group. $(3mks)$
+
+18. The sum of age's three children of Awiti, Wafula, and Najala is 68 years. Wafula is three-quarter as old as Awiti and twice times as old as Najala. Determine their ages. $(3mks)$
+
+19. Mwangi working on a coffee factory is paid $Ksh.\, 40$ for every normal working hour and $Ksh.\, 60$ for each hour worked overtime. During one week he worked for a total of 80 hours and was paid $Ksh. \,3840$ in wages. Determine the number of hours he worked overtime. $(3mks)$
+
+20. A retailer has bought a mixture of bags of beans and bags of peas from a wholesaler. One bag of beans has a mass of 90 Kg and one bag of peas has a mass of 75 Kg. the retailer bought 350 bags whose total mass is 28.5 tonnes. Find the number of bags of each type he bought. $(3mks)$
+
+21. Given that $x=4,\, y= -3 ,\, and \,\,z= -1$ evaluate. $(6mks)$
+
+    a\) $$ \frac{2(x+z)^2-(x-y)(y-z)}{3(x+y)-2(y-z)}$$
+
+    b\) $$
+    \frac{2xy^2-3xy^2z^2-3xy^2z}{x^2yz-2xyz^2-4xyz}
+    $$
+
+22. In a certain year, Waithera had 5 times as many goats as cows and three-quarter as many sheep as goats. In the next year the number of goats increased by 24%, the number of cows decreased by 50% while the number of sheep decreased by 30%. At the end of the preceding year Waithera had a total of 1865 animals. Calculate to three significant figures the percentage decrease in the total number of animals during the preceding year. $(10mks)$
+
+23. A family has two children whose age difference is 9. Twice the sum of their ages is equal to the age of their father.
+
+    a\) By letting the age of the younger child be x, write an expression of the:
+
+    i\) Age of the elder child. $(1mk)$
+
+    ii\) Age of their father. $(1mk)$
+
+    iii\) If in 19 years' time, the product of the ages of the two children is equal to 14 times the age of their father; form an equation in x and hence determine the present possible age of the younger child. $(4mks)$
+
+    iv\) Determine the possible age of the elder child in 19 years' time. $(2mks)$
+
+    v\) Find the possible age of the father. $(2mks)$
+
+24. A group of women decided to raise $Ksh. \, 480, 000$ to buy a piece of plot costing $Ksh.\, 80, 000$ per hectare. Before the actual payment was made, four of the women pulled out and each of those remaining had to pay an additional $Ksh. \,20, 000$.
+
+    a\) If the original number of the women in the group was $x$, write down;
+
+    i\) An expression of how much each was to contribute originally. $(1mks)$
+
+    ii\) An expression of how the remaining number of women were to contribute after the four pulled out. $(1mks)$
+
+    b\) Determine the number of women who actually contributed towards the purchase of the plot. $(5mks)$
+
+    c\) Calculate the ration of the supposed original contribution to the new contribution. $(1mks)$
+
+    d\) If the plot was sub-divided equally, find the size of the plot each woman got.$(2mks)$
+:::

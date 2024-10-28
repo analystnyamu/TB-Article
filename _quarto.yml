@@ -1,0 +1,40 @@
+output:
+  # Enable a table of contents
+  toc: true
+  
+  # Number sections in the article
+  number-sections: true
+
+  # Citation style
+  csl: apa.csl  # Use APA citation style (you can change to another style)
+
+  # Bibliography file for references
+  bibliography: references.bib
+
+  # Define output formats
+  format:
+    docx:
+      embed-resources: true  # Embed images and resources in the Word document
+
+# Language settings (optional)
+lang: en
+
+# Code execution settings (optional, if your article includes code)
+execute:
+  echo: false  # Hide code in the output
+  warning: false
+  error: false
+  eval: true   # Enable code execution
+
+# Author and date information
+author: 
+  - name: "Martin Wanjiru"
+    affiliation: "Affiliation Name"
+    email: "analystnyamu79@gmail.com"
+
+date: "2024-10-24"
+
+# Additional YAML settings (e.g., title, abstract)
+title: "Examining the Determinants and Epidemiological Variability of Active Tuberculosis in Eastern Africa"
+abstract: |
+  Tuberculosis (TB) is a chronic infectious disease affecting millions worldwide, particularly in developing regions. This study investigates the key determinants of TB incidence across Eastern Africa, focusing on gender, age, and country-specific variations.
