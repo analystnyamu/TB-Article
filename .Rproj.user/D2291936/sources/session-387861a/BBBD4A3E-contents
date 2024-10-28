@@ -53,7 +53,7 @@ This project is implemented in Python using the following key libraries:
 
 ## Available Formats
 
-- [View HTML Version](TB-Article.html)
+- [View HTML Version](https://htmlpreview.github.io/?https://github.com/analystnyamu/TB-Article/blob/master/TB-Article.html)
 - [Download PDF Version](TB-Article.pdf)
 
 ### Key Code Snippets
